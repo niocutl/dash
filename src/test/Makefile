@@ -1,6 +1,6 @@
 all:
-	$(MAKE) -C .. dash_test
+	$(MAKE) -C .. ltucoin_test
 clean:
-	$(MAKE) -C .. dash_test_clean
+	$(MAKE) -C .. ltucoin_test_clean
 check:
-	$(MAKE) -C .. dash_test_check
+	$(MAKE) -C .. ltucoin_test_check

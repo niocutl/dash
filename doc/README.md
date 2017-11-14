@@ -1,37 +1,37 @@
-Dash Core 0.12.1
+Ltucoin Core 0.12.1
 =====================
 
-This is the official reference wallet for Dash digital currency and comprises the backbone of the Dash peer-to-peer network. You can [download Dash Core](https://www.dash.org/downloads/) or [build it yourself](#building) using the guides below.
+This is the official reference wallet for Ltucoin digital currency and comprises the backbone of the Ltucoin peer-to-peer network. You can [download Ltucoin Core](https://www.ltucoin.org/downloads/) or [build it yourself](#building) using the guides below.
 
 Running
 ---------------------
-The following are some helpful notes on how to run Dash on your native platform.
+The following are some helpful notes on how to run Ltucoin on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/dash-qt` (GUI) or
-- `bin/dashd` (headless)
+- `bin/ltucoin-qt` (GUI) or
+- `bin/ltucoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run dash-qt.exe.
+Unpack the files into a directory, and then run ltucoin-qt.exe.
 
 ### OS X
 
-Drag Dash-Qt to your applications folder, and then run Dash-Qt.
+Drag Ltucoin-Qt to your applications folder, and then run Ltucoin-Qt.
 
 ### Need Help?
 
-* See the [Dash documentation](https://dashpay.atlassian.net/wiki/display/DOC)
+* See the [Ltucoin documentation](https://ltucoinpay.atlassian.net/wiki/display/DOC)
 for help and more information.
-* Ask for help on [#dashpay](http://webchat.freenode.net?channels=dashpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=dashpay).
-* Ask for help on the [DashTalk](https://dashtalk.org/) forums.
+* Ask for help on [#ltucoinpay](http://webchat.freenode.net?channels=ltucoinpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=ltucoinpay).
+* Ask for help on the [LtucoinTalk](https://ltucointalk.org/) forums.
 
 Building
 ---------------------
-The following are developer notes on how to build Dash Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Ltucoin Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [OS X Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
@@ -41,7 +41,7 @@ The following are developer notes on how to build Dash Core on your native platf
 
 Development
 ---------------------
-The Dash Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Ltucoin Core repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
@@ -57,8 +57,8 @@ The Dash Core repo's [root README](/README.md) contains relevant information on 
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [DashTalk](https://dashtalk.org/) forums, in the Development & Technical Discussion board.
-* Discuss on [#dashpay](http://webchat.freenode.net/?channels=dashpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=dashpay).
+* Discuss on the [LtucoinTalk](https://ltucointalk.org/) forums, in the Development & Technical Discussion board.
+* Discuss on [#ltucoinpay](http://webchat.freenode.net/?channels=ltucoinpay) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=ltucoinpay).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

@@ -1,5 +1,5 @@
-#ifndef BITCOIN_TEST_TEST_DASH_H
-#define BITCOIN_TEST_TEST_DASH_H
+#ifndef BITCOIN_TEST_TEST_LTUCOIN_H
+#define BITCOIN_TEST_TEST_LTUCOIN_H
 
 #include "chainparamsbase.h"
 #include "key.h"
@@ -75,7 +75,7 @@ struct TestMemPoolEntryHelper
     TestMemPoolEntryHelper() :
         nFee(0), nTime(0), dPriority(0.0), nHeight(1),
         hadNoDependencies(false), spendsCoinbase(false), sigOpCount(1) { }
-    
+
     CTxMemPoolEntry FromTx(CMutableTransaction &tx, CTxMemPool *pool = NULL);
 
     // Change the default value

@@ -1,6 +1,6 @@
 [Protocol]
-exec=dash-qt '%u'
-protocol=dash
+exec=ltucoin-qt '%u'
+protocol=ltucoin
 input=none
 output=none
 helper=true

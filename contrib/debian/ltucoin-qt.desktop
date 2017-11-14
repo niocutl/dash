@@ -1,12 +1,12 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Dash
-Comment=Dash P2P Cryptocurrency
-Comment[fr]=Dash, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Dash, eşten eşe kriptografik sanal para birimi
-Exec=dash-qt %u
+Name=Ltucoin
+Comment=Ltucoin P2P Cryptocurrency
+Comment[fr]=Ltucoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Ltucoin, eşten eşe kriptografik sanal para birimi
+Exec=ltucoin-qt %u
 Terminal=false
 Type=Application
-Icon=dash128
-MimeType=x-scheme-handler/dash;
+Icon=ltucoin128
+MimeType=x-scheme-handler/ltucoin;
 Categories=Office;Finance;
