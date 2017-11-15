@@ -19,9 +19,9 @@ BitcoinUnits::BitcoinUnits(QObject *parent):
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(LTUCOIN);
-    unitlist.append(mLTUCOIN);
-    unitlist.append(uLTUCOIN);
+    unitlist.append(LIT);
+    unitlist.append(mLIT);
+    unitlist.append(uLIT);
     unitlist.append(duffs);
     return unitlist;
 }
@@ -30,9 +30,9 @@ bool BitcoinUnits::valid(int unit)
 {
     switch(unit)
     {
-    case LTUCOIN:
-    case mLTUCOIN:
-    case uLTUCOIN:
+    case LIT:
+    case mLIT:
+    case uLIT:
     case duffs:
         return true;
     default:
@@ -46,9 +46,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case LTUCOIN: return QString("LTUCOIN");
-            case mLTUCOIN: return QString("mLTUCOIN");
-            case uLTUCOIN: return QString::fromUtf8("μLTUCOIN");
+            case LIT: return QString("LIT");
+            case mLIT: return QString("mLIT");
+            case uLIT: return QString::fromUtf8("μLIT");
             case duffs: return QString("duffs");
             default: return QString("???");
         }
@@ -57,9 +57,9 @@ QString BitcoinUnits::name(int unit)
     {
         switch(unit)
         {
-            case LTUCOIN: return QString("tLTUCOIN");
-            case mLTUCOIN: return QString("mtLTUCOIN");
-            case uLTUCOIN: return QString::fromUtf8("μtLTUCOIN");
+            case LIT: return QString("tLIT");
+            case mLIT: return QString("mtLIT");
+            case uLIT: return QString::fromUtf8("μtLIT");
             case duffs: return QString("tduffs");
             default: return QString("???");
         }
@@ -72,10 +72,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case LTUCOIN: return QString("Ltucoin");
-            case mLTUCOIN: return QString("Milli-Ltucoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uLTUCOIN: return QString("Micro-Ltucoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-Ltucoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case LIT: return QString("Ltucoins");
+            case mLIT: return QString("Milli-Ltucoins (1 / 1" THIN_SP_UTF8 "000)");
+            case uLIT: return QString("Micro-Ltucoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-Ltucoins (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -83,10 +83,10 @@ QString BitcoinUnits::description(int unit)
     {
         switch(unit)
         {
-            case LTUCOIN: return QString("TestLtucoins");
-            case mLTUCOIN: return QString("Milli-TestLtucoin (1 / 1" THIN_SP_UTF8 "000)");
-            case uLTUCOIN: return QString("Micro-TestLtucoin (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
-            case duffs: return QString("Ten Nano-TestLtucoin (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case LIT: return QString("TestLtucoins");
+            case mLIT: return QString("Milli-TestLtucoins (1 / 1" THIN_SP_UTF8 "000)");
+            case uLIT: return QString("Micro-TestLtucoins (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+            case duffs: return QString("Ten Nano-TestLtucoins (1 / 100" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
             default: return QString("???");
         }
     }
@@ -96,9 +96,9 @@ qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
     {
-    case LTUCOIN:  return 100000000;
-    case mLTUCOIN: return 100000;
-    case uLTUCOIN: return 100;
+    case LIT:  return 100000000;
+    case mLIT: return 100000;
+    case uLIT: return 100;
     case duffs: return 1;
     default:   return 100000000;
     }
@@ -108,9 +108,9 @@ int BitcoinUnits::decimals(int unit)
 {
     switch(unit)
     {
-    case LTUCOIN: return 8;
-    case mLTUCOIN: return 5;
-    case uLTUCOIN: return 2;
+    case LIT: return 8;
+    case mLIT: return 5;
+    case uLIT: return 2;
     case duffs: return 0;
     default: return 0;
     }

@@ -57,9 +57,9 @@ public:
      */
     enum Unit
     {
-        LTUCOIN,
-        mLTUCOIN,
-        uLTUCOIN,
+        LIT,
+        mLIT,
+        uLIT,
         duffs
     };
 

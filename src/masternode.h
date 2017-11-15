@@ -251,7 +251,7 @@ public:
         return false;
     }
 
-    /// Is the input associated with collateral public key? (and there is 1000 LTUCOIN - checking if valid masternode)
+    /// Is the input associated with collateral public key? (and there is 1000 LIT - checking if valid masternode)
     bool IsInputAssociatedWithPubkey();
 
     bool IsValidNetAddr();

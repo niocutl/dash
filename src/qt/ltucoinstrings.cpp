@@ -119,7 +119,7 @@ QT_TRANSLATE_NOOP("ltucoin-core", ""
 "testnet: %s)"),
 QT_TRANSLATE_NOOP("ltucoin-core", ""
 "InstantSend doesn't support sending values that high yet. Transactions are "
-"currently limited to %1 LTUCOIN."),
+"currently limited to %1 LIT."),
 QT_TRANSLATE_NOOP("ltucoin-core", ""
 "InstantSend requires inputs with at least %d confirmations, you might need "
 "to wait a few minutes and try again."),
@@ -226,10 +226,10 @@ QT_TRANSLATE_NOOP("ltucoin-core", ""
 "Unable to locate enough PrivateSend denominated funds for this transaction."),
 QT_TRANSLATE_NOOP("ltucoin-core", ""
 "Unable to locate enough PrivateSend non-denominated funds for this "
-"transaction that are not equal 1000 LTUCOIN."),
+"transaction that are not equal 1000 LIT."),
 QT_TRANSLATE_NOOP("ltucoin-core", ""
 "Unable to locate enough funds for this transaction that are not equal 1000 "
-"LTUCOIN."),
+"LIT."),
 QT_TRANSLATE_NOOP("ltucoin-core", ""
 "Unsupported argument -socks found. Setting SOCKS version isn't possible "
 "anymore, only SOCKS5 proxies are supported."),
@@ -403,7 +403,7 @@ QT_TRANSLATE_NOOP("ltucoin-core", "Invalid port detected in masternode.conf"),
 QT_TRANSLATE_NOOP("ltucoin-core", "Invalid script detected."),
 QT_TRANSLATE_NOOP("ltucoin-core", "KeePassHttp id for the established association"),
 QT_TRANSLATE_NOOP("ltucoin-core", "KeePassHttp key for AES encrypted communication with KeePass"),
-QT_TRANSLATE_NOOP("ltucoin-core", "Keep N LTUCOIN anonymized (default: %u)"),
+QT_TRANSLATE_NOOP("ltucoin-core", "Keep N LIT anonymized (default: %u)"),
 QT_TRANSLATE_NOOP("ltucoin-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
 QT_TRANSLATE_NOOP("ltucoin-core", "Keep the transaction memory pool below <n> megabytes (default: %u)"),
 QT_TRANSLATE_NOOP("ltucoin-core", "Keypool ran out, please call keypoolrefill first"),

@@ -841,28 +841,28 @@
         <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 1000 LTUCOIN</source>
-        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 LTUCOIN</translation>
+        <source>Use 2 separate masternodes to mix funds up to 1000 LIT</source>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 LIT</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 1000 LTUCOIN</source>
-        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 LTUCOIN</translation>
+        <source>Use 8 separate masternodes to mix funds up to 1000 LIT</source>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 LIT</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 LTUCOIN to anonymize 1000 LTUCOIN</source>
-        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 LTUCOIN pre anonimizáciu 1000 LTUCOIN</translation>
+        <source>This option is the quickest and will cost about ~0.025 LIT to anonymize 1000 LIT</source>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 LIT pre anonimizáciu 1000 LIT</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 LTUCOIN to anonymize 1000 LTUCOIN</source>
-        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 LTUCOIN pre anonimizáciu 1000 LTUCOIN</translation>
+        <source>This option is moderately fast and will cost about 0.05 LIT to anonymize 1000 LIT</source>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 LIT pre anonimizáciu 1000 LIT</translation>
     </message>
     <message>
-        <source>0.1 LTUCOIN per 1000 LTUCOIN you anonymize.</source>
-        <translation>0.1 LTUCOIN za 1000 LTUCOIN ktoré spravíte anonymnými.</translation>
+        <source>0.1 LIT per 1000 LIT you anonymize.</source>
+        <translation>0.1 LIT za 1000 LIT ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1558,8 +1558,8 @@ https://www.transifex.com/projects/p/ltucoin/</translation>
         <translation>Čiastka a kolá:</translation>
     </message>
     <message>
-        <source>0 LTUCOIN / 0 Rounds</source>
-        <translation>0 LTUCOIN / 0 Kôl</translation>
+        <source>0 LIT / 0 Rounds</source>
+        <translation>0 LIT / 0 Kôl</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
@@ -3484,8 +3484,8 @@ https://www.transifex.com/projects/p/ltucoin/</translation>
         <translation>Poslať Mince</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 LTUCOIN.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 LTUCOIN.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 LIT.</source>
+        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 LIT.</translation>
     </message>
     </context>
 <context>
@@ -3790,8 +3790,8 @@ https://www.transifex.com/projects/p/ltucoin/</translation>
         <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 1000 LTUCOIN.</source>
-        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 LTUCOIN.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 LIT.</source>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 LIT.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4162,8 +4162,8 @@ https://www.transifex.com/projects/p/ltucoin/</translation>
         <translation>Kľúč KeePassHttp pre šifrovanú AES komunikáciu s KeePass</translation>
     </message>
     <message>
-        <source>Keep N LTUCOIN anonymized (default: %u)</source>
-        <translation>Udržiavať N LTUCOIN anonymizovaných (predvolené: %u)</translation>
+        <source>Keep N LIT anonymized (default: %u)</source>
+        <translation>Udržiavať N LIT anonymizovaných (predvolené: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -4202,8 +4202,8 @@ https://www.transifex.com/projects/p/ltucoin/</translation>
         <translation>Pokiaľ &lt;category&gt; nie je nastavená, alebo &lt;category&gt; = 1, vypíš všetky informácie pre ladenie.</translation>
     </message>
     <message>
-        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 LTUCOIN.</source>
-        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 LTUCOIN.</translation>
+        <source>InstantSend doesn't support sending values that high yet. Transactions are currently limited to %1 LIT.</source>
+        <translation>InstantSend zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 LIT.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least %d confirmations, you might need to wait a few minutes and try again.</source>
@@ -4250,8 +4250,8 @@ https://www.transifex.com/projects/p/ltucoin/</translation>
         <translation>Nedá sa nájsť dostatok denominácií PrivateSend pre túto transakciu. </translation>
     </message>
     <message>
-        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 LTUCOIN.</source>
-        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 LTUCOIN.</translation>
+        <source>Unable to locate enough PrivateSend non-denominated funds for this transaction that are not equal 1000 LIT.</source>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných PrivateSend zdrojov pre túto transakciu, ktoré nie sú rovné 1000 LIT.</translation>
     </message>
     <message>
         <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
